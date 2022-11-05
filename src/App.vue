@@ -1,12 +1,10 @@
 <template>
-    <screen-home />
+    <router-view></router-view>
 </template>
 
 <script>
-import ScreenHome from "./screen/ScreenHome.vue";
 export default {
     name: "App",
-    components: { ScreenHome },
 };
 </script>
 
