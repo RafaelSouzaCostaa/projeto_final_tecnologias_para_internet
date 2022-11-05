@@ -16,6 +16,8 @@
 </template>
 
 <script>
+import router from "../routes/router";
+
 export default {
     data() {
         return {};
@@ -23,6 +25,7 @@ export default {
     methods: {
         alertar(props) {
             alert(props);
+            router.push({ name: "teste" });
         },
     },
 };
